@@ -44,9 +44,9 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-#    libion_exynos \
-    Camera2
-	
+#    libion_exynos
+     Snap
+
 # Keylayouts
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/sec_touchkey.kl:system/usr/keylayout/sec_touchkey.kl
@@ -98,25 +98,13 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:system/etc/permissions/android.hardware.audio.low_latency.xml \
     frameworks/native/data/etc/android.hardware.ethernet.xml:system/etc/permissions/android.hardware.ethernet.xml \
     frameworks/native/data/etc/com.android.nfc_extras.xml:system/etc/permissions/com.android.nfc_extras.xml \
-    kernel/kernel-kminilte:kernel
 
 # Extended settings
 PRODUCT_PACKAGES += \
     AriesParts \
-    DockAudio
-
-
-# Live Wallpapers
-PRODUCT_PACKAGES += \
-    LiveWallpapersPicker \
-    librs_jni
-
-# Camera
-PRODUCT_PACKAGES += \
-    Snap
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.opengles.version=196608
+    DockAudio \
+    SoundRecorder \
+    ScreenRecorder
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.isUsbOtgEnabled=true
