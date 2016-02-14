@@ -50,6 +50,9 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 12833521664
 # Include path
 TARGET_SPECIFIC_HEADER_PATH += device/samsung/kminilte/include
 
+#Light sensor
+BOARD_SYSFS_LIGHT_SENSOR := /sys/class/sensors/light_sensor/lux
+
 # Kernel
 TARGET_KERNEL_CONFIG := kminilte_00_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/kminilte

@@ -44,7 +44,6 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-#    libion_exynos
      Snap
 
 # Keylayouts
