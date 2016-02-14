@@ -214,17 +214,56 @@
 
          Must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLevels">
-        <item>15</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
+        <item>28</item>
+        <item>30</item>
+        <item>32</item>
+        <item>34</item>
+        <item>36</item>
+        <item>38</item>
+        <item>40</item>
+        <item>42</item>
+        <item>44</item>
+        <item>46</item>
+        <item>48</item>
         <item>50</item>
+		<item>52</item>
+        <item>54</item>
+        <item>56</item>
+        <item>58</item>
+        <item>60</item>
+        <item>62</item>
+        <item>64</item>
+        <item>66</item>
+        <item>68</item>
+        <item>70</item>
+        <item>72</item>
+        <item>74</item>
+        <item>76</item>
+        <item>78</item>
+        <item>80</item>
+        <item>82</item>
+        <item>84</item>
+        <item>86</item>
+        <item>88</item>
+        <item>90</item>
+        <item>92</item>
+        <item>94</item>
+        <item>96</item>
+        <item>98</item>
         <item>100</item>
-        <item>200</item>
-        <item>400</item>
-        <item>1000</item>
-        <item>2000</item>
-        <item>3000</item>
-        <item>5000</item>
-        <item>10000</item>
-        <item>30000</item>
     </integer-array>
 
     <!-- Array of output values for LCD backlight corresponding to the LUX values
@@ -232,18 +271,56 @@
          than the size of the config_autoBrightnessLevels array.
          This must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>10</item>   <!-- 0-15 -->
-        <item>80</item>   <!-- 15-50 -->
-        <item>120</item>   <!-- 50-100 -->
-        <item>160</item>   <!-- 100-200 -->
-        <item>170</item>   <!-- 200-400 -->
-        <item>180</item>   <!-- 400-1000 -->
-        <item>190</item>   <!-- 1000-2000 -->
-        <item>200</item>  <!-- 2000-3000 -->
-        <item>225</item>  <!-- 3000-5000 -->
-        <item>255</item>  <!-- 5000-10000 -->
-        <item>255</item>  <!-- 10000-30000 -->
-        <item>255</item>  <!-- 30000+ -->
+        <item>1</item>    <!-- 0-2 -->
+        <item>10</item>   <!-- 2-4 -->
+        <item>15</item>   <!-- 4-6 -->
+        <item>20</item>   <!-- 6-8 -->
+        <item>25</item>  <!-- 8-10 -->
+        <item>30</item>  <!-- 10-12 -->
+        <item>35</item>  <!-- 12-14 -->
+        <item>40</item>  <!-- 14-16 -->
+        <item>45</item>  <!-- 16-18 -->
+        <item>50</item>  <!-- 18-20 -->
+        <item>55</item>  <!-- 20-22 -->
+        <item>60</item>  <!-- 22-24 -->
+        <item>65</item>   <!-- 24-26 --> 
+        <item>70</item>   <!-- 26-28 -->
+        <item>75</item>   <!-- 28-30 -->
+        <item>80</item>   <!-- 30-32 -->
+        <item>85</item>   <!-- 32-34 -->
+        <item>90</item>   <!-- 34-36 -->
+        <item>95</item>   <!-- 36-38 -->
+        <item>100</item>   <!-- 38-40 -->
+        <item>105</item>   <!-- 40-42 -->
+        <item>110</item>   <!-- 42-44 -->
+        <item>115</item>   <!-- 44-46 -->
+        <item>120</item>   <!-- 46-48 -->
+        <item>125</item>   <!-- 48-50 -->
+		<item>130</item>    <!-- 50-52 -->
+        <item>135</item>   <!-- 52-54 -->
+        <item>140</item>   <!-- 54-56 -->
+        <item>145</item>   <!-- 56-58 -->
+        <item>150</item>  <!-- 58-60 -->
+        <item>155</item>  <!-- 60-62 -->
+        <item>160</item>  <!-- 62-64 -->
+        <item>165</item>  <!-- 64-66 -->
+        <item>170</item>  <!-- 66-68 -->
+        <item>175</item>  <!-- 68-70 -->
+        <item>180</item>  <!-- 70-72 -->
+        <item>185</item>  <!-- 72-74 -->
+        <item>190</item>   <!-- 74-76 --> 
+        <item>195</item>   <!-- 76-78 -->
+        <item>200</item>   <!-- 78-80 -->
+        <item>205</item>   <!-- 80-82 -->
+        <item>210</item>   <!-- 82-84 -->
+        <item>215</item>   <!-- 84-86 -->
+        <item>220</item>   <!-- 86-88 -->
+        <item>225</item>   <!-- 88-90 -->
+        <item>230</item>   <!-- 90-92 -->
+        <item>235</item>   <!-- 92-94 -->
+        <item>240</item>   <!-- 94-96 -->
+        <item>245</item>   <!-- 96-98 -->
+        <item>255</item>   <!-- 98 +  -->
     </integer-array>
 
     <!-- Array of output values for button backlight corresponding to the LUX values
